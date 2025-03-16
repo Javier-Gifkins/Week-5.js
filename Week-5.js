@@ -96,4 +96,16 @@ console.log(name.split(" ")) // split name into seperte indexs' put uotations on
 
 // the trim method
 let name2 = "Gifkins   Jav"
-console.log(name.trim()) //
+console.log(name.trim()) // trims spaces of either end of the string
+
+
+// the includes method
+console.log(name.includes("With")) // returns true or false value if u have a specific word in your string
+
+// the replace() method
+console.log(name.replace("Javascript", "Typescript")) // takes 2 arguments, replaces first with second
+
+let anotherWord = "Typescript"
+console.log(name.replace("Type", "Java")) // takes 2 arguments, replaces Type with Java
+
+
